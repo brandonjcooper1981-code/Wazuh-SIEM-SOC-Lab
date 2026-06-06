@@ -10,6 +10,45 @@
 
 ![Active Agents](screenshots/02-Wazuh-Dashboard-Active-Agents.png)
 
+---
+
+## Project Highlights
+
+- Built and deployed a Wazuh SIEM environment from scratch
+- Integrated Windows Server 2025 Active Directory
+- Connected and monitored Windows endpoints
+- Performed threat hunting and event correlation
+- Investigated failed logons and account lockouts
+- Detected user lifecycle events (creation/deletion)
+- Detected Domain Admins group modifications
+- Produced SOC-style incident reports
+- Mapped detections to MITRE ATT&CK
+
+---
+
+## Skills Demonstrated
+
+### Security Operations
+- SIEM Administration
+- Threat Hunting
+- Incident Response
+- Alert Triage
+
+### Windows Security
+- Active Directory Monitoring
+- Authentication Analysis
+- Privileged Access Monitoring
+
+### Technical
+- Wazuh
+- Ubuntu Linux
+- Windows Server
+- Windows 11
+- PowerShell
+- VirtualBox
+
+---
+
 ## Project Overview
 
 This project demonstrates the deployment and operation of a Security Information and Event Management (SIEM) environment using **Wazuh**, **Windows Server Active Directory**, and **Windows endpoints**.
@@ -263,6 +302,22 @@ This represents one of the most security-sensitive events generated during the l
 
 ---
 
+# Featured Investigation
+
+## Domain Admins Group Modification
+
+Severity: 12
+
+MITRE ATT&CK:
+- T1098 Account Manipulation
+- T1484 Domain Policy Modification
+
+This investigation demonstrates detection of privileged Active Directory group changes, one of the highest-risk administrative actions in a Windows environment.
+
+![Domain Admin Alert](screenshots/10-Domain-Amdins-Group-Changed.png)
+
+---
+
 # 📄 Incident Reports
 
 Formal SOC-style incident reports were created for each major investigation.
@@ -313,6 +368,21 @@ Throughout this project I gained hands-on experience with:
 * MITRE ATT&CK mapping
 * SOC documentation standards
 * Incident reporting procedures
+
+---
+
+# Resume Impact
+
+This project demonstrates hands-on experience with:
+
+- Security Information and Event Management (SIEM)
+- Threat Hunting
+- Active Directory Monitoring
+- Windows Event Log Analysis
+- Endpoint Security Monitoring
+- Incident Response
+- MITRE ATT&CK Mapping
+- Security Documentation
 
 ---
 
