@@ -1,3 +1,8 @@
+# Wazuh SIEM SOC Lab
+
+![Active Agents](screenshots/02-Wazuh-Dashboard-Active-Agents.png)
+
+Security Operations Center (SOC) lab built using Wazuh SIEM, Windows Server Active Directory, and Windows endpoints to simulate real-world threat detection, log analysis, and incident response investigations.
 Wazuh-SIEM-SOC-Lab
 
 Security Operations Center (SOC) lab built using Wazuh SIEM, Windows Server Active Directory, and Windows endpoints to simulate real-world threat detection, log analysis, and incident response investigations.
