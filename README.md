@@ -20,6 +20,8 @@ MITRE ATT&CK Mapping
 
 The objective of this project was to build a functional SOC environment capable of detecting, monitoring, and investigating Windows security events.
 
+---
+
 Lab Architecture
                     ┌──────────────────────┐
                     │   Wazuh Manager      │
@@ -35,6 +37,9 @@ Lab Architecture
       │ Windows Server    │       │ Windows 11 Pro     │
       │ Active Directory  │       │ Endpoint Agent     │
       └───────────────────┘       └────────────────────┘
+
+---
+
 Technologies Used
 Technology	Purpose
 Wazuh SIEM	Security Monitoring
